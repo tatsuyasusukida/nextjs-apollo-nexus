@@ -6,10 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gist": "gist -u 0daa727b457e1e6d83814293905e1abc -od 'Next.js + Apollo GraphQL + Nexus.js' api/*.ts api/**/*.ts generated/* pages/api/graphql.ts"
   },
   "dependencies": {
+    "apollo-server-micro": "^3.10.2",
+    "graphql": "^16.6.0",
     "next": "12.2.5",
+    "nexus": "^1.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
